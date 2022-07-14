@@ -1,7 +1,7 @@
-# Professional Read Me Generator
+# Professional readme generator
 
   ## Description
-  Generates a professional ReadMe template for GitHub
+  Create a professional readme generator template for github
   
   ## Table of Contents (Optional)
   
@@ -13,7 +13,6 @@
   - [License](#license)
   - [Badges](#badges)
   - [Features](#features)
-  - [Contributions](#contributions)
   - [Tests](#tests)
   
   ## Installation
@@ -22,7 +21,7 @@
   
   ## Usage
 
-  undefined
+  Helps the user to create a professional readme file for their projects
 
   Provide instructions and examples for use. Include screenshots as needed.
   
@@ -34,7 +33,7 @@
   
   ## Credits
 
-  undefined
+  Emily
   
   List your collaborators, if any, with links to their GitHub profiles.
   
@@ -54,7 +53,7 @@
   
   ## Badges
 
-  undefined
+  none
   
   ![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
   
@@ -62,14 +61,10 @@
   
   ## Features
 
-  undefined
+  HTML, JavaScript, CSS
   
   If your project has a lot of features, list them here.
   
-  ## How to Contribute
-  undefined
-  
-  If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
   
   ## Tests
   undefined
