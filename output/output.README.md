@@ -1,7 +1,7 @@
-# Professional readme generator
+# Professional ReadMe generator
 
   ## Description
-  Create a professional readme generator template for github
+  Create a professional readme generator for Github
   
   ## Table of Contents (Optional)
   
@@ -21,7 +21,7 @@
   
   ## Usage
 
-  Helps the user to create a professional readme file for their projects
+  Creates an easy to create file for readme's in github
 
   Provide instructions and examples for use. Include screenshots as needed.
   
@@ -61,7 +61,7 @@
   
   ## Features
 
-  HTML, JavaScript, CSS
+  HTML, Javascript, CSS, node
   
   If your project has a lot of features, list them here.
   
