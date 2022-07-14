@@ -23,6 +23,12 @@ const questions = [
     },
 
     {
+        type:"input",
+        name:"usage",
+        message:"What is the user story?"
+    },
+
+    {
         type:"list",
         name:"license",
         message:"Choose the following license",
@@ -35,14 +41,20 @@ const questions = [
     },
 
     {
-        type:"list",
+        type:"input",
         name:"features",
-        message:"Which badges did you earn?"
+        message:"what are the features of your project?"
+    },
+
+    {
+        type:"input",
+        name:"credits",
+        message:"list the people who contributed to the project."
     },
 
     {
         type: 'input',
-        name: 'testing',
+        name: 'tests',
         message: 'Please input testing instructions for the user:',
         when: ({ confirmTest }) => {
             if (confirmTest) {
@@ -55,23 +67,6 @@ const questions = [
 
 ]
 
-.then(data => {
-    return generateMarkdown(data);
-})
-.then(Markdown => {
-    return writeFile(Markdown);
-})
-.then(writeFileResponse => {
-    console.log(writeFileResponse);
-    return copyFile();
-})
-.then(copyFileResponse => {
-    console.log(copyFileResponse);
-})
-
-.catch(err => {
-    console.log(err);
-})
 
 // TODO: Create a function to initialize app
 function init() {

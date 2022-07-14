@@ -1,7 +1,7 @@
-# Professional ReadMe Generator
+# Professoinal ReadMe generator
 
   ## Description
-  Generates professional README template for GitHub
+  Create a professional README template generator
   
   ## Table of Contents (Optional)
   
@@ -22,7 +22,7 @@
   
   ## Usage
 
-  undefined
+  The user will be able to enter all their information via node to the professional readme generator template
 
   Provide instructions and examples for use. Include screenshots as needed.
   
@@ -34,7 +34,7 @@
   
   ## Credits
 
-  undefined
+  Emily McEwen
   
   List your collaborators, if any, with links to their GitHub profiles.
   
@@ -54,7 +54,7 @@
   
   ## Badges
 
-  clear
+  None
   
   ![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
   
@@ -62,7 +62,7 @@
   
   ## Features
 
-  undefined
+  Simplifies the process of creating a README file for all of your projects
   
   If your project has a lot of features, list them here.
   
