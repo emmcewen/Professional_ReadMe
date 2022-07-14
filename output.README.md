@@ -1,7 +1,7 @@
-# test
+# Professional ReadMe Generator
 
   ## Description
-  test
+  Generates professional README template for GitHub
   
   ## Table of Contents (Optional)
   
@@ -11,6 +11,10 @@
   - [Usage](#usage)
   - [Credits](#credits)
   - [License](#license)
+  - [Badges](#badges)
+  - [Features](#features)
+  - [Contributions](#contributions)
+  - [Tests](#tests)
   
   ## Installation
   
@@ -40,7 +44,7 @@
   
   ## License
 
-  [![License: IPL 1.0](https://img.shields.io/badge/License-IPL_1.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
   The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
   
@@ -50,7 +54,7 @@
   
   ## Badges
 
-  undefined
+  clear
   
   ![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
   
@@ -68,5 +72,6 @@
   If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
   
   ## Tests
+  undefined
   
   Go the extra mile and write tests for your application. Then provide examples on how to run them here.

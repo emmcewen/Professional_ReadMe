@@ -11,9 +11,10 @@ function renderLicenseBadge(license) {
   return "[![License: IPL 1.0](https://img.shields.io/badge/License-IPL_1.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)"
 }
 
+
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) { }
+function renderLicenseLink(license) {}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
@@ -34,6 +35,10 @@ function generateMarkdown(data) {
   - [Usage](#usage)
   - [Credits](#credits)
   - [License](#license)
+  - [Badges](#badges)
+  - [Features](#features)
+  - [Contributions](#contributions)
+  - [Tests](#tests)
   
   ## Installation
   
@@ -91,6 +96,7 @@ function generateMarkdown(data) {
   If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
   
   ## Tests
+  ${data.tests}
   
   Go the extra mile and write tests for your application. Then provide examples on how to run them here.
 `;

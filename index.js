@@ -27,11 +27,51 @@ const questions = [
         name:"license",
         message:"Choose the following license",
         choices:["MIT", "IBM", "Apache"]
-    }
-];
+    },
+    {
+        type:"input",
+        name:"badges",
+        message:"Which badges did you earn?"
+    },
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+    {
+        type:"list",
+        name:"features",
+        message:"Which badges did you earn?"
+    },
+
+    {
+        type: 'input',
+        name: 'testing',
+        message: 'Please input testing instructions for the user:',
+        when: ({ confirmTest }) => {
+            if (confirmTest) {
+                return true;
+            } else {
+                return false
+            }
+        }
+    },
+
+]
+
+.then(data => {
+    return generateMarkdown(data);
+})
+.then(Markdown => {
+    return writeFile(Markdown);
+})
+.then(writeFileResponse => {
+    console.log(writeFileResponse);
+    return copyFile();
+})
+.then(copyFileResponse => {
+    console.log(copyFileResponse);
+})
+
+.catch(err => {
+    console.log(err);
+})
 
 // TODO: Create a function to initialize app
 function init() {
@@ -40,7 +80,10 @@ function init() {
         console.log(data)
         fs.writeFileSync("./output.README.md",generateMarkdown(data))
     })
+
+    
 }
+
 
 // Function call to initialize app
 init();
